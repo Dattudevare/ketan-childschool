@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Open+Sans:wght@600&family=Poppins:wght@400;600&family=Roboto:wght@300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=:wght@100;200;300;400&family=Open+Sans:wght@600&family=Poppins:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400&family=Open+Sans:wght@600&family=Poppins:wght@400;600&family=Roboto:wght@300;400;500;700;900&family=Sacramento&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: "Catamaran", sans-serif;
+    font-size: 16px;
+}
+
+/* universal css star */
+a {
+    text-decoration: none;
+}
+
+.text-orange {
+    color: #EA512E
+}
+
+.text-orange2 {
+    color: #F94528
+}
+
+.text-black {
+    color: #1B0238
+}
+
+.text-silver {
+    color: #8E6B84
+}
+
+.bg-orange {
+    background-color: #EA512E;
+}
+
+.bg-yellow {
+    background-color: #fd7e14
+}
+
+.bg-light-yellow {
+    background-color: #fee9ca
+}
+
+.teachers-core {
+    background-color: #fdf3e6;
+}
+
+.bg-yellow1 {
+    background-color: #fd7e14;
+    border: 0;
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #fd7e14 !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    color: #fff;
+    position: relative;
+}
+
+.bg-yellow1:hover {
+    background-color: #cd1f05 !important;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #EA512E;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    color: #fff;
+    position: relative;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+.btn:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0%;
+    background-color: #fd7e14;
+    z-index: -1;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: #fd7e14;
+    color: #fff
+}
+
+.mt-6 {
+    margin-top: 60px;
+    ;
+}
+
+.mt-7 {
+    margin-top: 70px;
+    ;
+}
+
+.mt-8 {
+    margin-top: 80px;
+}
+
+.mt-9 {
+    margin-top: 90px;
+}
+
+.mt-10 {
+    margin-top: 100px;
+}
+
+.mt-15 {
+    margin-top: 150px;
+}
+
+.mt-20 {
+    margin-top: 200px;
+}
+
+.top-4 {
+    top: 4%;
+}
+
+.top-10 {
+    top: 10%;
+}
+
+.top-11 {
+    top: 10%;
+    margin-right: 60px;
+}
+
+.top-10 {
+    top: 20%;
+}
+
+.start-10 {
+    left: 20%;
+}
+
+.pt-10 {
+    padding-top: 100px;
+}
+
+.pb-7 {
+    padding-bottom: 70px;
+}
+
+.pb-10 {
+    padding-bottom: 100px;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #6b6b84;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #1b0238;
+    font-family: "Catamaran", sans-serif;
+    font-weight: bold;
+}
+
+img{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+}
+/* universal css end */
+
+/* header section start  */
+.active {
+    background-color: #fff !important;
+}
+
+a.active {
+    color: #EA512E;
+}
+
+a.nav-link:hover,
+a.dropdown-item:hover {
+    color: #EA512E !important;
+    border: none;
+    transition-duration: .5s linear;
+
+}
+
+.dropdown-menu {
+    border: none;
+    width: 280px;
+    border-radius: 0px;
+    box-shadow: 0px 0px 15px 0px #ccc;
+}
+
+.ll:hover {
+    color: #EA512E !important;
+    border: none;
+}
+
+.nav-item:hover .dropdown-menu {
+    display: block;
+    margin-top: 1px;
+    border: none;
+    color: #EA512E;
+    transition: all 0.5s linear;
+
+}
+
+.dropdown {
+    background: #fff !important;
+}
+
+/*  /header section end */
+/* Banner section start */
+.banner {
+    width: 100%;
+    height: 700px;
+    background: url(../img/main-banner-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.shape1 {
+    top: 3.5%;
+    left: .7%;
+    animation: move 1s linear infinite alternate;
+}
+
+.shape2 {
+
+    top: 70%;
+    left: .7%;
+    animation: move2 1s linear infinite alternate;
+    z-index: 1;
+}
+
+.shape3 {
+
+    top: 3.5%;
+    left: .7%;
+    animation: move3 1s linear infinite alternate;
+}
+
+.shape4 {
+    top: 630px;
+    width: 170px;
+    z-index: 1;
+    /* animation: move 1s linear infinite alternate ; */
+
+}
+
+.shape12 {
+    top: 5%;
+    right: 660px;
+    animation: move4 2s linear infinite alternate;
+}
+
+.shape12 {
+    margin-top: 480px;
+
+}
+
+.top-75 {
+    top: 600px;
+}
+
+.banner h1 {
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Banner section end/ */
+
+/* who we are section start */
+.who span,
+.popular span,
+.core-value span,
+.teachers-core span,
+.teachers-core span,
+.testmonial span {
+    font-weight: 700;
+    font-size: 20px;
+    color: #F94528;
+    font-family: 'Sacramento', cursive;
+}
+
+.pt-55 {
+    padding-top: 110px;
+}
+
+.who h2,
+.popular h3,
+.core-value h2,
+.teachers-core h2,
+.testmonial h2 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    ;
+}
+
+.who ul li {
+    line-height: 30px;
+    font-weight: 400;
+    font-weight: bold;
+}
+
+.who-we ul li span {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+    border-radius: 50%;
+    background-color: #F94528;
+    transition: all 0.5s;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30px;
+    color: #fff;
+    font-family: 'Catamaran', sans-ser;
+}
+
+.who ul li:hover span {
+    background-color: #fd7e14;
+    transition: all 0.5s ease-in-out;
+}
+
+.shapeowl {
+    right: 20px;
+    /* top:1px; */
+    animation: move1 1s linear infinite alternate;
+}
+
+/*   /who we are section End */
+
+
+/*  Popular section start */
+.boy::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ea512e;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
+    animation: border-transform-default 10s linear infinite alternate forwards;
+}
+
+.boy::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #f5890d;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 50s linear infinite alternate forwards;
+    animation: border-transform-default 30s linear infinite alternate forwards;
+}
+
+.popular .card:hover img {
+    transform: rotate(2deg) scale(1.07);
+    transform: all 0.3s linear;
+}
+
+.price:hover {
+    background-color: #fd7e14;
+    cursor: pointer;
+}
+
+.card-title:hover {
+    color: #fd7e14;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.popular .class1 {
+    top: 770px;
+    left: 0px;
+}
+
+.popular .class2 {
+    top: 625px;
+}
+
+.price {
+    padding-top: 17px;
+    background-color: #ea512e;
+    width: 50px;
+    height: 42px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    ;
+    display: inline-block;
+    margin-left: 345px;
+    margin-top: -100px;
+    line-height: 18px;
+    border-radius: 0 0 0 10px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    text-align: center;
+
+
+}
+
+.card-body hr {
+    border-top: 3.5px dotted #ea512e;
+}
+
+.card-body .class-lsit ul li span {
+    color: #ea512e;
+    font-family: ' cursive';
+    font-size: 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.class-lsit ul li {
+    display: inline;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+/*  /Popular section End */
+
+
+
+/* core value section start */
+
+.core-value .number {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    line-height: 60px;
+    font-size: 25px;
+    font-family: 'Catamaran', sans-ser;
+    background-color: #d3f5fe;
+    text-align: center;
+    cursor: context-menu;
+    border: 2px solid #fff;
+    outline: 1.5px solid #e1d1d1;
+    outline-offset: 3px;
+    transition: all 0.5s;
+    margin-right: 20px;
+}
+
+.core-value .bott {
+    position: absolute;
+    top: 535px;
+    left: 0px;
+}
+
+.core-value .number:hover {
+    color: #fff;
+    background-color: #EA512E !important;
+    outline-color: #EA512E !important;
+    transition: all 0.5s;
+}
+
+/* core value section End */
+
+/* Teacher-core secton Start */
+.teachers-core .social-meida {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: -60px;
+    transition: all 0.4s ease-in;
+}
+
+.teachers-core .social-meida.bg-yellow {
+
+    background-color: #ea512e !important;
+}
+
+.teachers-core .teacher-image:hover .social-meida {
+    margin-bottom: 0px;
+    transition: all 0.6s ease-in;
+}
+
+.teacher-image.boy1 {
+    z-index: 999 !important;
+}
+
+.boy1::before {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #ea512e;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation: border-transform-default 10s linear infinite alternate forwards;
+    animation: border-transform-default 10s linear infinite alternate forwards;
+
+.boy1::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background-color: #f5890d;
+    left: 0;
+    right: 0;
+    top: 100;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-animation:boy1 50s linear infinite alternate forwards;
+    animation: boy1 30s linear infinite alternate forwards;
+}
+
+/* /Teacher-core secton End */
+
+/* Testmonial section start */
+.rounded-circle {
+    background-color: #fee9ca;
+}
+
+.testmonial .nav-button button:hover {
+    background-color: #f5890d;
+    transition: all 1s linear;
+}
+
+.testmonial button {
+    width: 50px;
+    height: 50px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 10px;
+    text-align: center;
+    background-color: #ea512e;
+    transition: all 1s linear;
+    border-radius: 50%;
+}
+
+.testmonial .card .bg-white11 {
+    background-color: #fff;
+    color: #EA512E;
+    transition: all .6s linear;
+}
+
+.testmonial .card:hover .bg-white11 {
+    background-color: #f5890d;
+    color: #fff;
+    transition: all .7s linear;
+}
+
+.testmonial .imggg3 {
+    position: absolute;
+    right: 100px;
+    top: 600px;
+}
+
+.testmonial .imggg2 {
+    left: 690px;
+    top: 600px;
+}
+
+.testmonial .imggg {
+    left: 200px;
+    top: 600px;
+}
+/* Testmonial section End */
+
+
+/* DARK BUTOON STAR */
+.dark-version {
+    position: fixed;
+    z-index: 1;
+    right: 95px;
+    bottom: 45px
+}
+
+.dark-version .switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px
+}
+
+.dark-version .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.dark-version input:checked+.slider {
+    background-color: #ea512e;
+}
+
+.dark-version .slider.round {
+    border-radius: 50px
+}
+
+.dark-version .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #ea512e;
+    -webkit-transition: 0.4s;
+    transition: 0.4s
+}
+
+.dark-version input:checked+.slider:before {
+    -webkit-transform: translateX(24px);
+    transform: translateX(24px);
+    background: white url(https://i.ibb.co/7JfqXxB/sunny.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.dark-version .slider.round:before {
+    border-radius: 50%;
+}
+.dark-version .slider:before {
+    position: absolute;
+    content: "";
+    height: 30px;
+    width: 30px;
+    left: 2.5px;
+    bottom: 4px;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+    -webkit-box-shadow: 0 0px 15px #2020203d;
+    box-shadow: 0 0px 15px #2020203d;
+    background: white url(https://i.ibb.co/FxzBYR9/night.png);
+    background-repeat: no-repeat;
+    background-position: center;}
+/* DARK BUTOON END */
+/* ROTATE SECTION START */
+
+div.rotate {
+    position: fixed;
+    font-weight: bold;
+    top: 50%;
+    right: 50px;
+    width: 130px;
+    height: 45px;
+    color: #fff;
+    background-color: #06f923 !important;
+    border-radius: 25px;
+    z-index: 999;
+    transition: all 10/3s linear;
+    animation: name;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+.rotate a {
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 20px;
+    ;
+    color: #fff;
+    font-weight: bold;
+}
+
+div.rotate:hover {
+    background-color: #F94528 !important;
+    color: #ffffff !important;
+    transition: all .6s linear;
+}
+
+
+/* ROTATE SECTION END */
+
+/* boy keyframe start */
+@keyframes border-transform-default {
+
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+/* boy keyframe end */
+
+/* boy1 keyframe start*/
+
+@keyframes boy1 {
+
+
+    0%,
+    100% {
+        border-radius: 63% 37% 54% 46%/55% 48% 52% 45%;
+    }
+
+    14% {
+        border-radius: 40% 60% 54% 46%/49% 60% 40% 51%;
+    }
+
+    28% {
+        border-radius: 54% 46% 38% 62%/49% 70% 30% 51%;
+    }
+
+    42% {
+        border-radius: 61% 39% 55% 45%/61% 38% 62% 39%;
+    }
+
+    56% {
+        border-radius: 61% 39% 67% 33%/70% 50% 50% 30%;
+    }
+
+    70% {
+        border-radius: 50% 50% 34% 66%/56% 68% 32% 44%;
+    }
+
+    84% {
+        border-radius: 46% 54% 50% 50%/35% 61% 39% 65%;
+    }
+}
+/* boy1 keyframe end*/
+
+@keyframes name {
+    0% {
+        transform: scale3d(1, 1, 1)
+    }
+
+    10%,
+    20% {
+        transform: scale3d(0.7, 0.7, 0.7) rotate3d(0, 0, 1, -3deg)
+    }
+
+    50%,
+    30%,
+    70%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg)
+    }
+
+    40%,
+    60%,
+    90% {
+        transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg)
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1) rotate3d(0, 0, 1, 3deg);
+    }
+
+}
+@keyframes move {
+    0% {}
+
+    100% {
+        left: 2%
+    }
+}
+
+@keyframes move1 {
+    0% {}
+
+    100% {
+        right: 2%
+    }
+}
+
+@keyframes move2 {
+    0% {}
+
+    100% {
+        left: 2%
+    }
+}
+
+@keyframes move3 {
+    0% {}
+
+    100% {
+        left: 2%
+    }
+}
+
+@keyframes move4 {
+    1% {
+        top: 1%
+    }
+
+    0% {
+        bottom: 1%
+    }
+}
